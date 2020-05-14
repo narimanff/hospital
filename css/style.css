@@ -1,0 +1,101 @@
+main{
+    background: url(../images/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+padding: 60px 0;
+}
+h6{
+    color: #e5c43a;
+}
+h1{
+    font-weight:400;
+    font-size:20px;
+}
+.logo i{
+    color: #1f1fa0;
+    font-size:50px;
+    font-weight: 400;
+}
+.user i{
+    color: #1f1fa0;
+   
+    
+}
+.user a{
+    text-decoration: none;
+    color: #000;
+    display: block;
+}
+
+.user  span {
+    color: #6e6eed;
+    text-align: right;
+}
+.nav-pills .nav-link {
+  border-radius:40px;
+    background: rgba(255, 255, 255, .5);
+    margin-bottom: 5px;
+ 
+    color: #333;
+ 
+    font-weight: bold;
+}
+.nav-pills .nav-link.active {
+    background: #e5c43a;
+    color: #fff;}
+.main-content {
+    min-height:350px;
+}
+
+.main-content .item {
+    display: block;
+    color: #333;
+    background: #fff;
+    text-align: center;
+    padding: 25px;
+    margin-bottom: 30px;
+    border: 1px solid #333;
+    border-radius: 15px;
+    transition: all .3s ease;
+    height: 110px;
+}
+.main-content a{
+    text-decoration: none;
+}
+.main-content .item:hover {
+    box-shadow: 0px 0px 10px #333;
+}
+
+.main-content .item:hover i {
+    transform: scale(1.4);
+}
+
+.main-content .item i {
+    display: block;
+    font-size: 15px;
+    margin-bottom: 15px;
+    color: #057aff;
+    transition: all .3s ease;
+}
+footer {
+    padding: 30px 0;
+}
+
+footer a {
+    color: #333;
+}
+
+footer .copyright {
+    background: #e5c43a;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    color: #000;
+}
+@media (max-width: 768px) {
+    .logo {
+        text-align: center;
+        margin-bottom: 15px;
+    }
+
